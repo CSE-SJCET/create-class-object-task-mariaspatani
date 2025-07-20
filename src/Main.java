@@ -10,11 +10,7 @@ class Student {
 	String name;
 	int rollNumber;
 	char grade;
-	Student(){
-		name="Maria";
-		rollNumber=53;
-		grade='A';
-	}
+	
 	public void displayDetails() {
 		System.out.println("Name: "+name);
 		System.out.println("RollNumber: "+rollNumber);
@@ -25,6 +21,9 @@ public class Main {
       public static void main(String[] args) {
         // TODO: Create a Student object and call the method to display details
            Student student=new Student();
+	         student.name="Maria";
+		 student.rollNumber=53;
+		 student.grade='A';
 		 student.displayDetails();	
     }
 }
